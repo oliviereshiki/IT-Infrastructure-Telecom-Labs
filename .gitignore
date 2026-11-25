@@ -1,0 +1,57 @@
+
+# ==========================================
+# IT Infrastructure & Telecom Labs
+# ==========================================
+
+# Machines virtuelles
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.vbox
+*.vbox-prev
+*.vmsn
+*.sav
+*.ova
+*.ovf
+Snapshots/
+
+# Images d'installation
+*.iso
+*.img
+
+# Captures réseau Wireshark
+*.pcap
+*.pcapng
+*.cap
+
+# Identifiants et données sensibles
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+secrets/
+credentials/
+config.xml
+
+# Sauvegardes et fichiers temporaires
+*.bak
+*.backup
+*.tmp
+*.log
+Backups/
+Exports/
+
+# Fichiers système
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Configuration locale des éditeurs
+.vscode/
+.idea/
